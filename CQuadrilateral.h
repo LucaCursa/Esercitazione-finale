@@ -15,7 +15,8 @@ using namespace std;
 
 /// @class Quadrilateral
 /// @brief an abstract base class for quadrilateral
-class Quadrilateral {
+class Quadrilateral 
+{
 protected:
 
 	float sides[4];
@@ -81,7 +82,10 @@ public:
 	/// @{
 	virtual void Drawing()=0;
 	/// @}
+	/// @name CUSTOM FUNCTIONS
+	/// @{
 	const char* ColorRecon(Color x);
+	/// @}
 };
 
 #endif

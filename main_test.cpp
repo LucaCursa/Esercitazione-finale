@@ -8,7 +8,8 @@ const int LISTL=6;
 
 Quadrilateral* quadList[LISTL];
 
-void Show() {
+void Show() 
+{
 	
 	int i; 
 	
@@ -18,7 +19,8 @@ void Show() {
 }
 
 
-int main() {
+int main() 
+{
 
 	 
 	Format f1, f2;

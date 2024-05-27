@@ -11,7 +11,8 @@ enum Color {k,w,r,g,b};
 
 /// @struct Format
 /// @brief parameters setting the drawing format of the shape 
-struct Format {
+struct Format 
+{
 	Color fill; // fill color 
 	Color outline; // outline color
 	
